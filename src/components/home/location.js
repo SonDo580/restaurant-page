@@ -1,4 +1,4 @@
-import locationImageSrc from '../../images/location';
+import locationImageSrc from '../../images/location.jpeg';
 
 const locationDiv = document.createElement('div');
 locationDiv.classList.add('location');
@@ -8,8 +8,8 @@ heading.textContent = 'Location';
 locationDiv.appendChild(heading);
 
 const locationBox = document.createElement('div');
-const locationImage = new Image();
-locationImage.src = locationImageSrc;
+const locationImage = document.createElement('img');;
+locationImage.setAttribute('src', locationImageSrc);
 locationBox.appendChild(locationImage);
 
 locationDiv.appendChild(locationBox);
