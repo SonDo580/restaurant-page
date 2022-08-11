@@ -39,7 +39,7 @@ h1 {
 
 /* HOME REVIEW */
 .home .review {
-    padding: 20px 20%;
+    padding: 20px 20% 60px;
 }
 
 .home .review .card-review {
@@ -64,6 +64,7 @@ h1 {
 /* HOME OPEN-TIME */
 .home .open-time {
     background-color: aqua;
+    padding: 40px 0 80px;
 }
 
 .home .open-time table {
@@ -80,6 +81,10 @@ h1 {
 }
 
 /* HOME LOCATION */
+.home .location {
+    padding: 20px 0 60px;
+}
+
 .home .location > div {
     display: flex;
     justify-content: space-between;
@@ -88,6 +93,12 @@ h1 {
     width: 50%;
     margin: 0 auto;
     border: 3px solid darkgoldenrod;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.home .location > div > img {
+    border-radius: 5px;
 }
 
 .home .location > div > p {
