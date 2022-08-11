@@ -16,7 +16,7 @@ the kind of place that I like to return to again and again.\"";
 cardReview.appendChild(cardText);
 
 const customer = document.createElement('h6');
-customer.textContent = "Zero the Maverick Hunter";
+customer.textContent = "-- Zero the Maverick Hunter";
 cardReview.appendChild(customer);
 
 reviewDiv.appendChild(cardReview);
