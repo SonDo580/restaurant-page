@@ -2,6 +2,7 @@ h1 {
     text-align: center;
 }
 
+/* HOME BANNER */
 .home .banner {
     height: 300px;
     width: 100%;
@@ -36,25 +37,44 @@ h1 {
     text-align: center;
 }
 
-.review {
+/* HOME REVIEW */
+.home .review {
     padding: 20px 20%;
 }
 
-.review .card-review {
+.home .review .card-review {
     border: 2px solid green;
     border-radius: 20px;
     padding: 0 20px;
 }
 
-.review .card-review p {
+.home .review .card-review p {
     font-size: 1.5rem;
     font-style: italic;
     margin-bottom: 0;
 }
 
-.review .card-review h6 {
+.home .review .card-review h6 {
     font-size: 1.5rem;
     margin-bottom: 20px;
     margin-top: 30px;
     text-align: right;
+}
+
+/* HOME OPEN-TIME */
+.home .open-time {
+    background-color: antiquewhite;
+}
+
+.home .open-time table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.home .open-time table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: blue
 }
