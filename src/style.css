@@ -109,18 +109,22 @@ h1 {
 .menu h2 {
     font-size: 2.5rem;
     text-align: center;
+    color: brown;
 }
 
-.menu .beverages {
+.menu .beverages,
+.menu .foods {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 80px;
 }
 
 .card-menu {
     border: 2px solid blue;
     width: 25%;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .card-menu img {
