@@ -1,10 +1,12 @@
 .home .banner {
-    height: 500px;
+    height: 300px;
     width: 75%;
     margin: 0 auto;
     position: relative;
 
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
 }
 
 .home .banner::after {
@@ -20,4 +22,13 @@
     background: url(./images/banner.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.home .banner h1 {
+    font-size: 4rem;
+    padding-top: 50px;
+}
+
+.home .banner p {
+    font-size: 2rem;
 }
