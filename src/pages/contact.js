@@ -2,7 +2,6 @@ import tigerImgSrc from '../images/tiger.jpg';
 import lionImgSrc from '../images/lion.jpg';
 import leopardImgSrc from '../images/leopard.jpg';
 
-
 const contactList = [
     {
         name: 'Big Tiger',
@@ -33,5 +32,42 @@ contact.classList.add('contact');
 const mainHeading = document.createElement('h1');
 mainHeading.textContent = 'Contact Us';
 contact.appendChild(mainHeading);
+
+const contactContainer = document.createElement('div');
+contactContainer.classList.add('contact-container');
+
+for (let person of contactList) {
+    const cardContact = document.createElement('div');
+    cardContact.classList.add('card-contact');
+
+    const cardImage = document.createElement('img');
+    cardImage.setAttribute('src', person.image);
+    cardContact.appendChild(cardImage);
+
+    const cardInfo = document.createElement('div');
+    cardInfo.classList.add('contact-info');
+
+    const name = document.createElement('h3');
+    name.textContent = person.name;
+    cardInfo.appendChild(name);
+
+    const position = document.createElement('p');
+    position.textContent = person.position;
+    cardInfo.appendChild(position);
+
+    const phone = document.createElement('p');
+    phone.textContent = person.phone;
+    cardInfo.appendChild(phone);
+    
+    const email = document.createElement('p');
+    email.textContent = person.email;
+    cardInfo.appendChild(email);
+
+    cardContact.appendChild(cardInfo);
+
+    contactContainer.appendChild(cardContact);
+}
+
+contact.appendChild(contactContainer);
 
 export default contact;
