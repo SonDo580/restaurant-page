@@ -78,3 +78,20 @@ h1 {
     font-size: 1.2rem;
     color: blue;
 }
+
+/* HOME LOCATION */
+.home .location > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid darkgoldenrod;
+}
+
+.home .location > div > p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    font-weight: bold;
+}
