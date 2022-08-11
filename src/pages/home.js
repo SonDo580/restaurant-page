@@ -1,19 +1,22 @@
+import banner from '../components/home/banner';
+
 const home = document.createElement('div');
 home.classList.add('home');
 
-// BANNER SECTION
-const bannerDiv = document.createElement('div');
-bannerDiv.classList.add('banner');
+home.appendChild(banner);
+
+// REVIEW SECTION
+const reviewDiv = document.createElement('div');
+reviewDiv.classList.add('review');
 
 const heading = document.createElement('h1');
-heading.textContent = 'Super Cat\'s Restaurant';
+heading.textContent = 'What our customers say';
 bannerDiv.appendChild(heading);
 
-const description = document.createElement('p');
+const cardReview = document.createElement('div');
+cardReview.classList.add('card-review');
 description.textContent = 'We make foods and beverages for cats (and human)!';
 bannerDiv.appendChild(description);
-
-home.appendChild(bannerDiv);
-// END BANNER SECTION
+// END REVIEW SECTION
 
 export default home;
