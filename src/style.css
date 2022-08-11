@@ -146,3 +146,31 @@ h1 {
     font-size: 1.3rem;
     color: blue;
 }
+
+/* CONTACT */
+.contact {
+    padding: 20px;
+}
+
+.contact h1 {
+    font-size: 3rem;
+}
+
+.card-contact {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 3px solid burlywood;
+    border-radius: 20px;
+    display: flex;
+}
+
+.card-contact img {
+    width: 50%;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.card-contact .contact-info {
+    font-size: 1.4rem;
+}
