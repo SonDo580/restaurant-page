@@ -1,15 +1,18 @@
+import lemonadeSrc from '../../images/lemonade.jpeg';
+import honeySrc from '../../images/honey.jpeg';
+
 const beverages = [
     {
         name: 'Lemonade',
         description: 'This is a random description',
         price: '$20',
-        image: '../../images/lemonade.jpeg'
+        image: lemonadeSrc
     },
     {
         name: 'Honey',
         description: 'This is a random description',
         price: '$30',
-        image: '../../images/honey.jpeg'
+        image: honeySrc
     }
 ];
 
