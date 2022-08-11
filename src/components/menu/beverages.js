@@ -19,10 +19,6 @@ const beverages = [
 const beveragesDiv = document.createElement('div');
 beveragesDiv.classList.add('beverages');
 
-const subHeading = document.createElement('h1');
-subHeading.textContent = 'Beverages';
-beveragesDiv.appendChild(subHeading);
-
 for (let beverage of beverages) {
     const cardMenu = document.createElement('div');
     cardMenu.classList.add('card-menu');

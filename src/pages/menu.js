@@ -7,6 +7,9 @@ const mainHeading = document.createElement('h1');
 mainHeading.textContent = 'Menu';
 menu.appendChild(mainHeading);
 
+const subHeading1 = document.createElement('h2');
+subHeading1.textContent = 'Beverages';
+menu.appendChild(subHeading1);
 menu.appendChild(beverages);
 
 export default menu;
