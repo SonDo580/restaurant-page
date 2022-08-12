@@ -4,6 +4,7 @@ const header = document.querySelector('header');
 
 const homeButton = document.createElement('button');
 homeButton.textContent = 'Home';
+homeButton.classList.add('active');
 homeButton.addEventListener('click', showHome);
 header.appendChild(homeButton);
 
