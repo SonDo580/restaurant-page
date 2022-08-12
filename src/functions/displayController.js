@@ -4,22 +4,34 @@ import contact from '../pages/contact';
 
 const contentDiv = document.querySelector('#content');
 
-function showHome() {
-    showActive('home');
+function showHome(event) {
+    removeActive();
+    event.target.classList.add('active');
     contentDiv.textContent = '';
     contentDiv.appendChild(home);
 }
 
-function showMenu() {
-    showActive('menu');
+function showMenu(event) {
+    removeActive();
+    event.target.classList.add('active');
     contentDiv.textContent = '';
     contentDiv.appendChild(menu);
 }
 
-function showContact() {
-    showActive('contact');
+function showContact(event) {
+    removeActive();
+    event.target.classList.add('active');
     contentDiv.textContent = '';
     contentDiv.appendChild(contact);
+}
+
+function removeActive() {
+    const buttons = document.querySelectorAll('header button');
+    for (const button of buttons) {
+        if (button.classList.contains('active')) {
+            button.classList.remove('active');
+        }
+    }
 }
 
 export { showHome, showMenu, showContact };
