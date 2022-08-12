@@ -2,6 +2,22 @@ h1 {
     text-align: center;
 }
 
+header {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 50px;
+}
+
+header button {
+    width: 100px;
+    background-color: yellow;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 /* HOME BANNER */
 .home .banner {
     height: 300px;
@@ -109,7 +125,6 @@ h1 {
 
 /* MENU */
 .menu {
-    background-color: aliceblue;
     padding: 20px;
 }
 
