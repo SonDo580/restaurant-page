@@ -1,6 +1,6 @@
 import {showHome, showMenu, showContact } from '../functions/displayController'
 
-const header = document.createElement('header');
+const header = document.querySelector('header');
 
 const homeButton = document.createElement('button');
 homeButton.textContent = 'Home';
