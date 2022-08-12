@@ -12,14 +12,17 @@ header {
 
 header button {
     width: 100px;
-    background-color: yellow;
     border: none;
+    background-color: navy;
+    color: white;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 header button.active {
+    border-top: 10px solid navy;
     background-color: white;
+    color: blue;
 }
 
 /* HOME BANNER */
