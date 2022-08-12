@@ -18,6 +18,10 @@ header button {
     font-weight: bold;
 }
 
+header button.active {
+    background-color: white;
+}
+
 /* HOME BANNER */
 .home .banner {
     height: 300px;
