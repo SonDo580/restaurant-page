@@ -16,5 +16,3 @@ const contactButton = document.createElement('button');
 contactButton.textContent = 'contact';
 contactButton.addEventListener('click', showContact);
 header.appendChild(contactButton);
-
-export default header;
