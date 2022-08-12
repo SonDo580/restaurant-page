@@ -8,11 +8,13 @@ homeButton.addEventListener('click', showHome);
 header.appendChild(homeButton);
 
 const menuButton = document.createElement('button');
-menuButton.textContent = 'menu';
+menuButton.textContent = 'Menu';
 menuButton.addEventListener('click', showMenu);
 header.appendChild(menuButton);
 
 const contactButton = document.createElement('button');
-contactButton.textContent = 'contact';
+contactButton.textContent = 'Contact';
 contactButton.addEventListener('click', showContact);
 header.appendChild(contactButton);
+
+export default header;
